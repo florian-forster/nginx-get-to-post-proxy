@@ -35,5 +35,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }},"***/nginx-get-to-post-proxy:latest"
+          tags: ${{ steps.meta.outputs.tags }},"florianforster/nginx-get-to-post-proxy:latest"
           labels: ${{ steps.meta.outputs.labels }}
